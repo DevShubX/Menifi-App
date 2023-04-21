@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "95747403257",
+    "firebase_url": "https://menifi-prod-default-rtdb.firebaseio.com",
+    "project_id": "menifi-prod",
+    "storage_bucket": "menifi-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95747403257:android:82673163a206de6e176128",
+        "android_client_info": {
+          "package_name": "com.example.menifi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95747403257-jaeposnhdr9gssr1ba55fbvo7etfikh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHYWyo8VDF8JEMbgeJrX8ZtwbafPjpdp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95747403257-jaeposnhdr9gssr1ba55fbvo7etfikh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
