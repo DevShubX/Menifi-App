@@ -20,7 +20,7 @@ class AnimeReviewMal extends StatefulWidget {
 class _AnimeReviewMalState extends State<AnimeReviewMal> {
   List data = [];
   bool isLoading = true;
-
+  List smallData = [];
   Future getAnimeReviews(String idMal) async {
     await Future.delayed(const Duration(seconds: 2));
     http.Response response = await http
@@ -124,7 +124,7 @@ class _AnimeReviewMalState extends State<AnimeReviewMal> {
                       physics: const NeverScrollableScrollPhysics(),
                       shrinkWrap: true,
                       scrollDirection: Axis.vertical,
-                      itemCount: 2,
+                      itemCount: data.length > 1 ? 2 : 1,
                       itemBuilder: (BuildContext context, index) {
                         final item = data[index];
                         final date = item['date'];
